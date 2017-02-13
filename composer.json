@@ -1,0 +1,30 @@
+{
+	"name": "abcflorida/bcsitemanager",
+	"type": "platform-extension",
+	"description": "Mult Site Admin",
+	"authors": [
+		{
+			"name": "Brian",
+			"email": "flbrianc@gmail.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://github.com/abcflorida/bcsitemanager.git"
+		}
+	],
+	"require": {
+		
+	},
+	"autoload": {
+		"classmap": [
+			"database/migrations",
+			"database/seeds"		],
+		"psr-4": {
+			"Abcflorida\\Bcsitemanager\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
